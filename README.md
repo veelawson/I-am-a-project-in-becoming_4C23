@@ -1,5 +1,4 @@
-#I-am
-##A project in becoming.
+#I-am## A project in becoming.
 
 Abstract: This coding tool is a great way to break the ice at begining of your school year. Why not use code to help your students introduce themselves? It's an easy way for you to introduce your students to a little bit of computer science and build their coding literacy.
 
