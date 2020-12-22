@@ -1,8 +1,6 @@
 #I am...A Project in Becoming
 
-Abstract: This coding tool is a great way to break the ice at begining of your school year. Why not use code to help your students introduce themselves? It's an easy way for you to introduce your students to a little bit of computer science and build their coding literacy.
-
-Students work through the prompts in the index.html code to construct their own web page that exlains who they are and where they are going. I ask that my students actually present their page to the rest of the class. But before we do so--and even while the presentations are going on--I give them time to work together to debug their projects. 
+This coding tool is a great way to break the ice at begining of your school year. Why not use code to help your students introduce themselves? It's also an easy way for you to introduce your students to a little bit of computer science and build their coding literacy.
 
 This template also allows the user to mix and match div. blocks should students wish to further customize their work. It's a great introduction to coding that will allow them to use our other tools found: [HERE](http://pitt.edu/~sjq4/PittFuego/#Introductions)
 
