@@ -1,23 +1,28 @@
+<!--Welcome to "I am...a Project in Becoming..." Just follow along with comments like this one, and you'll design a really cool webtext that not only introduces you to the rest of the class, but also builds your coding literacy. Refer to the repository README for GitHub publishing help.-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language.-->
+
 <!DOCTYPE html>
 <html lang="en">
+<!--Next comes the <head> information including the title and all of the important links that make the webtext work. When a browser access your url, it looks first at the index.html document <head> to learn about the names and locations of the other files and assets it will need to assemble your code into a visual display.-->
 <head>
-    
-<!--I (S.J. Quigley) use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science. Just follow along with comments like this one, and you will make a really cool web documemt that not only introduces you to the rest of the class, but also builds your coding literacy. 
-    
-<!--BTW. You can leave these faded comments be, or delete them. They are but road signs, absent from the larger design-->
+<!--BTW. You can leave these faded code comments be, or delete them. Programmers and web designers use these comments to better explain what the code is doing for others who may enter the document later. They are but road signs, absent from the larger design-->
 
-<!--Go ahead and fill in the blank in the the Title of this HTML document below.-->
+<!--Go ahead and fill in the blank in <title>I am...</title> (see just below). The <title> will appear in your document's browser tab-->
 <title>I am...</title>
 
-    <!--this other stuff below the title does important work to help tell different browsers what this page should look like on different screens-->  
+<!--This stuff below the title does important work to tell browsers what this page should look like on different screens-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or CSS. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes about font, text size, image size, among other details.-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-    
+
+<!--Now we will start working in the body of the document. The body holds all of the code and content that will appear as a visual for our audience.-->
 <body>
-       
-<!-- We'll need to do some more work in this section, but to do so, we will need to make some changes on your style.css file. Developers refer to this division as a "Hero Block." You don't need to do anything on this html page, but you'll need to change the background image on the style.css page. Place a .jpg or .png in the same file folder (directory) as this project (hint: keep your file names simple and don't use spaces.). Add to/change the other relevant information in the hero image class below.-->
+
+<!--Developers refer to this next section as a "Hero Block." The hero image is controlled on the style.css page. To replace this image, simply place a .jpg file in the same file folder (directory) as this project and name it hero.jpg. Alternatively, if you are working with a .png, you will need to open the style.css file using your text editor, and change the file type from .jpg to .png. Browsers will accept only .jpg, .jpeg, or .png imgaes. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation..-->
+
 
 <div class="hero-image">
   <div class="hero-text">
@@ -25,100 +30,98 @@
       <h2>A Project in Becoming</h2>
   </div>
 </div>
-    
-    
-    
-<!--We'll use this first section to discuss where you are right now. Where do you go to school and what courses are you taking/enjoying. What majors/minors/certificates are you pursuing? Has this changed? Why? Replace the content between <h2> and </h2> that says "Lorem ipsum" etc -->    
-    
-    <div class="textblock" style="text-align: left">   
+
+
+<!--We'll use this first section to discuss where you are right now. Where do you go to school and what courses are you taking/enjoying. What majors/minors/certificates are you pursuing? Has this changed? Why? Replace the content between <h2> and </h2> that says "Lorem ipsum" etc -->
+
+    <div class="textblock" style="text-align: left">
+<!--Fuego programs sometimes use "in-line styling" to provide quick fixes to content design. In the above case, you could change "left" to "right" or "center" depending on your specific design needs. That said, left align is usually best practice for improving readability.-->
          <h1>Field of Study</h1>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
   </div>
-    
+
 <br>
-<br>   
-    
-      <!--Replace the image here. You can also control max-image width%.-->
+<br>
+
+  <!--Replace the images here. You can also control max-image width%. Keep your file names simple, don't use spaces, and be case sensitive). Be sure to add alt="text." Visually impaired individuals using screen readers rely on alt="text" to describe pictures to them. Describe your image as clearly and succinctly as possible.-->
+
 <div>
-    <img src="horizon.jpg" alt="decribe the image HERE for accessibility purposes" class="center-image" style="max-width:30%; max-height:30%;">
+    <img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" class="center-image" style="max-width:30%; max-height:30%;">
 </div>
 <br>
 <br>
 <br>
 <br>
-    
-     <!--Did you know "Lorem ipsum," the fill text used in this web template, was hacked out of Cicero's "De finibus bonorum et malorum"? Developers made it non-sensical, so don't bother with Google Translate." --> 
-    
 
-    
 
-    <!--Let's go back to the start, to your home and family. Where do you come from? What's it like? Who is your family--I'll letyou define this. Who are your people? How did these influences impact where you are now?-->  
-    
-     <div class="textblock" style="text-align: left"> 
+<!--Let's go back to the start, to your home and family. Where do you come from? What's it like? Who is your family? I'll let you define these terms. Who are your people? How did these influences impact where you are now?-->
+
+     <div class="textblock" style="text-align: left">
  <h1>Home and Family</h1>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
   </div>
-    
+
+<!--Quick fact: Did you know "Lorem ipsum," the fill text used in this web template, was hacked out of Cicero's "De finibus bonorum et malorum"? Developers made it non-sensical, so don't bother with Google Translate.-->
+
+<br>
+<br
 <br>
 <br>
-<br>
-<br> 
-    
-  
-<!--Show us. Find those beautiful, meaningful "family" photos and pictures of your place (only you can define family). Add the photos to your project folder, making sure the files end in .jpg or .png and replace the names in the grid code below. You can add more images if you wish, or subtract... see what happens – you have to be playful to find the purpose of things.-->
-    
-    <!--Here we are using rows and column classes to create some divisions on the page.--> 
-   
-<div class="row"> 
+
+
+<!--Show us. Find those beautiful, meaningful "family" photos and pictures of your place (only you can define family). If you are concerned about issues of privacy, you can always use stock images, or get creative. Add these photos to your project folder, making sure the files end in .jpg or .png and replace the names in the grid code below. You can add more images if you wish, or subtract...you might also need to move content around to achieve balance. See what happens – sometimes you have to be playful to find the purpose of things. Since these images are smaller, you will want to resize your images to less than 600px in width. This will improve load time and thus general accesibility. Don't forget to add alt="text"-->
+
+<!--A photo grid uses rows and column classes to create some divisions on the page that will scale with mobile devices. The style.css page provides other attributes that will adjust the image depending on the size of screens.-->
+
+<div class="row">
   <div class="column">
-    <img src="pgrid1.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid2.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
   <div class="column">
-    <img src="pgrid3.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid4.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
-  <div class="column">    
-    <img src="pgrid5.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid6.jpg" alt="decribe the image HERE for accessibility purposes">
+  <div class="column">
+    <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
 </div>
-   
-    
- 
-  <!--So, what exactly are you into? Take some time to explain your passions.-->  
-<div class="textblock" style="text-align: left">   
+
+
+
+<!--So, what exactly are you into? Take some time to explain your passions.-->
+<div class="textblock" style="text-align: left">
          <h1>Interests and Activities</h1>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
   </div>
 <br>
 <br>
-          
+
 <div>
-<img src="horizon.jpg" alt="decribe the image HERE for accessibility purposes" class="center-image" style="max-width:50%; max-height:50%;">
+<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" class="center-image" style="max-width:50%; max-height:50%;">
 </div>
 <br>
 <br>
 <br>
 <br>
-  
-    
-<!--Let's talk a little about the future. After school what kind of job or career would you like to pursue? What is your reasoning for going on this path? How might it connect to all of these prior elements--field of study, home and family, interests and activities? Why is this job or career important to you? Why is it important generally?-->
-    
-<div class="textblock" style="text-align: left">   
-         <h1>Career</h1>
-  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+
+
+<!--Let's talk a little about the future. After school what kind of job or career would you like to pursue? What is your reasoning for going on this path? How might it connect to all of these prior elements-field of study, home and family, interests and activities? Why is this job or career important to you? Why is it important generally?-->
+
+<div class="textblock" style="text-align: left">
+         <h1>In the Future</h1>
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
   </div>
 <br>
 <br>
 <br>
-<br>   
-  
+<br>
 
     <div>
- <img src="horizon.jpg" alt="decribe the image HERE for accessibility purposes" class="none" style="max-width:100%;max-height:100%";>
+ <img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" class="none" style="max-width:100%;max-height:100%";>
     </div>
-    
+
 <br>
 <br>
 <br>
@@ -127,44 +130,44 @@
 <br>
 <br>
 <br>
-<br>   
-    
+<br>
+
 <div style="text-align: center">
-    <img src="fuego.jpg" alt="Pitt Fuego Flame" style="max-width:30%;">
-     <h4>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></h4>
+    <img src="fuego.jpg" alt="Open Fuego Flame" style="max-width:30%;">
+     <h4>generated by <a href="https://open-fuego.github.io/OPen-Fuego-Coding-Tools/">Open Fuego</a></h4>
     <p><em>Why make a spark when you can light a fire?</em></p>
-    </div>   
+    </div>
 <br>
 <br>
 <br>
 <br>
-
+<!--A <br> in the code creates a little more room for <div> elements.-->
 <br>
 <br>
   </body>
      </html>
 
 
-<!--Looking to add components? You've come to the right place. Copy and Paste Code Snippets   
+<!--Looking to add components? You've come to the right place. Copy and Paste Code Snippets
 -------------------------------------------------------------------------------------------
 
 ***Add Text Block***
 
 
 Instructions: Format textblock left, center, justify, right;
-    Format text: Italics:<em>Italics</em>; Bold:<b>Bold</b>; Link Website <a href="https://ex>HERE"</a>; Link Asset <a href=filename.pdf>HERE</a>; Line Breaks/Spaces: <br>; 
+    Format text: Italics:<em>Italics</em>; Bold:<b>Bold</b>; Link Website <a href="https://ex>HERE"</a>; Link Asset <a href=filename.pdf>HERE</a>; Line Breaks/Spaces: <br>;
 
 Code:
 
-<div class="textblock" style="text-align: left"> 
-<h1>Header</h1> 
-  <h2>We recommend using our mobile-ready H1 and H2 text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>    
+<div class="textblock" style="text-align: left">
+<h1>Header</h1>
+  <h2>We recommend using our mobile-ready H1 and H2 text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
   </div>
 <br>
 <br>
 <br>
 <br>
-    
+
 
 ***Add Bulleted Points***
 
@@ -181,13 +184,13 @@ Code:
 <br>
 
 
-***Add an Image*** 
-Instructions: Control image with height/width value. 
+***Add an Image***
+Instructions: Control image with height/width value.
 
-*Centered Image (Any Size - adjust max width/height percentages)* 
+*Centered Image (Any Size - adjust max width/height percentages)*
 
 <div>
-    <img src="horizon.jpg" alt="decribe the image HERE for accessibility purposes" class="center-image" style="max-width:30%; max-height:30%;">
+    <img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" class="center-image" style="max-width:30%; max-height:30%;">
 </div>
 <br>
 <br>
@@ -195,12 +198,12 @@ Instructions: Control image with height/width value.
 <br>
 
 
-*Full Width Image* 
+*Full Width Image*
 (Notice that this image does not need .css class centering because we used the width percentage property=100%)
 
 
 <div>
-<img src="horizon.jpg" alt="decribe the image HERE for accessibility purposes" style="width:100%;">
+<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
 </div>
 <br>
 <br>
@@ -210,18 +213,18 @@ Instructions: Control image with height/width value.
 
 ***Add a Photo Grid***
 
-<div class="row"> 
+<div class="row">
   <div class="column">
-    <img src="pgrid1.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid2.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
   <div class="column">
-    <img src="pgrid3.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid4.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
-  <div class="column">    
-    <img src="pgrid5.jpg" alt="decribe the image HERE for accessibility purposes">
-    <img src="pgrid6.jpg" alt="decribe the image HERE for accessibility purposes">
+  <div class="column">
+    <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+    <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
   </div>
 </div>
 <br>
@@ -236,16 +239,13 @@ Instructions: Control image with height/width value.
 
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p>Describe your image HERE</p>
+<p>Describe your video HERE</p>
 </div>
 <br>
 <br>
 <br>
 <br>
 
-
-
-***Add a Parallax Window***
 
 
 ***Add a Copyright Footer***
@@ -257,10 +257,7 @@ Instructions: Control image with height/width value.
 
 
 
-***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
-
-
--->
+***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***-->
 
 
 
@@ -268,8 +265,5 @@ Instructions: Control image with height/width value.
 
 <!--Looking to publish this page in GitHub? Here are your next steps:
 
-Sign in to GitHub. Create  new repository. Name it. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Pitt Fuego online. Find, copy your URL from this settings page...and now it's time to spread the fire! Pitt Fuego! Peace and love only, Stephen Quigley, University of Pittsburgh, 2020.
+Sign in to GitHub. Create  new repository. Name it. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down the left column and click "GitHub Pages." Next you will change "source" from "none" to "master." This will publish your Fuego online. Find, copy your URL from this settings page...and now it's time to spread the fire! Open Fuego! Peace and love only, Stephen Quigley, University of Pittsburgh, 2020.
 -->
-
-
-
