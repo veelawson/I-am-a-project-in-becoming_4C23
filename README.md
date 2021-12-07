@@ -31,7 +31,7 @@ This template also allows the user to mix and match div. blocks should students 
  
 
 
-Check out our other cool [Open Fuego Coding Tools](https://open-fuego.github.io/OPen-Fuego-Coding-Tools/)
+Check out our other cool [Open Fuego Coding Tools](https://open-fuego.github.io/Open-Fuego-Coding-Tools/)
 
 
 
