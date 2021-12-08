@@ -11,19 +11,19 @@ This template also allows the user to mix and match div. blocks should students 
 
 1. Go to the [I-am-a-project-in-becoming repository](https://github.com/open-fuego/I-am-a-project-in-becoming) 
 
-2. Click "Code" then "Download ZIP" to your local computer. 
+2. Click the green "Code" button, and then click "Download ZIP" to your local computer. 
 
 3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
 
-4. Download and/or open a text editor like [atom.io](https://atom.io) or [notepad-plus-plus.org](notepad-plus-plus.org). If you need help setting up Atom for a specific operating system, you will find a repository on our GitHub site. 
+4. For Mac, Windows, and Linux, download and/or open a code editor like [atom.io](https://atom.io) or any code editor of your choice. If you use a Chromebook O.S., we recommend Code Pad or Caret. You will find additional information below about optimizing your code editor to work with HTML and CSS.  
 
-5. Use the text editor to open the style.css and index.html documents from your project folder.  
+5. Use the code editor to open the index.html and style.css files from your project folder.
 
 6. Start working with code by reading through the index.html where you'll find instructions on how to build your own web text! 
 
-7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then hit "Commit changes." 
+7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then click "Commit changes." 
 
-8. Now go to your repository "settings." Scroll down to "GitHub Pages" on the left-hand side and change the setting from "none" to "main." Hit "Save"
+8. Now go to your repository "settings." Scroll down to "GitHub Pages" on the left-hand side and change the setting from "none" to "main." Click "Save"
 
 9. This will provide you with a published GitHub URL.
 
@@ -66,8 +66,3 @@ Setting up Atom for Windows and CodePad for Chromebooks
 1. Download "**Code Pad Text Editor**" from Chrome Web Store. 
 1. From the dropdown menu, select **Editor>IDE Preferences**
 1. Toggle "**Word wrap limit**" to the middle value (this will force lines of code to conform to your viewer tab.)<p>&nbsp;</p>
-
-
-
-
-
