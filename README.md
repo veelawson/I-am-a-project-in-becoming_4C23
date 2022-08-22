@@ -23,9 +23,9 @@ This template also allows the user to mix and match div. blocks should students 
 
 7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then click "Commit changes." 
 
-8. Now go to your repository "settings." Scroll down to "GitHub Pages" on the left-hand side and change the setting from "none" to "main." Click "Save"
+8. Now go to your repository "settings." Scroll down to "GitHub Pages" in the left-hand menu. Change the source setting from "none" to "main" "/root" and then Click "Save"
 
-9. This will provide you with a published GitHub URL.
+9. GitHub will provide you with a published URL. (This process may take up to five minutes.)
 
 10. Test the URL in a browser. Magic, no? Actually, it's computer science.  
  
@@ -45,7 +45,7 @@ Setting up Atom for Windows and CodePad for Chromebooks
 ### Atom (Mac)
 
 
-1. Download "**Atom**" from **Atom.io**
+1. Download "**[Atom](http://atom.io)**"
 1. Add HTML Preview 
 	- from the dropdown menu, select **Atom>Preferences>Install**
 	- In the search bar type "**HTML Preview**." 
@@ -55,7 +55,7 @@ Setting up Atom for Windows and CodePad for Chromebooks
 
 ### Atom (Windows)
 
-1. Download "**Atom**" from **Atom.io**
+1. Download "**[Atom](http://atom.io)**"
 1. Add HTML Preview - from the dropdown menu, select **File>Settings.** In the tab that loads select **+Install** 
 1. In the search bar type "**HTML Preview**." 
 1. Select the package built by "**HARMSK**." Click "**Install**."
