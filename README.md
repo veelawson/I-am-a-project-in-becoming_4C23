@@ -45,7 +45,7 @@ Setting up Atom for Windows and CodePad for Chromebooks
 ### Atom (Mac)
 
 
-1. Download "**[Atom](http://atom.io)**"
+1. Download "**Atom**" from **Atom.io**
 1. Add HTML Preview 
 	- from the dropdown menu, select **Atom>Preferences>Install**
 	- In the search bar type "**HTML Preview**." 
@@ -55,7 +55,7 @@ Setting up Atom for Windows and CodePad for Chromebooks
 
 ### Atom (Windows)
 
-1. Download "**[Atom](http://atom.io)**"
+1. Download "**Atom**" from **Atom.io**
 1. Add HTML Preview - from the dropdown menu, select **File>Settings.** In the tab that loads select **+Install** 
 1. In the search bar type "**HTML Preview**." 
 1. Select the package built by "**HARMSK**." Click "**Install**."
