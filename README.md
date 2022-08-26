@@ -29,7 +29,7 @@ This template also allows the user to mix and match div. blocks should students 
 
 10. Test the URL in a browser. Magic, no? Actually, it's computer science.  
  
-
+Watch our [instructional video](https://youtu.be/cJiYas7B9Us)
 
 Check out our other cool [Open Fuego Coding Tools](https://open-fuego.github.io/Open-Fuego-Coding-Tools/)
 
